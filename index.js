@@ -1,5 +1,5 @@
 function updateObjectWithKeyAndValue(object, key, value) {
-  const object2 = {object}
+  const object2 = {...object}
   object2[key] = value
   return object2
 }
